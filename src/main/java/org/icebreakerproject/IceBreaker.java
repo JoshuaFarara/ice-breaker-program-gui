@@ -46,7 +46,7 @@ public class IceBreaker extends Application {
 	protected ArrayList<Button> listButtons = new ArrayList<>(Arrays.asList(arrButtons));
 	
 	
-//	Create COnstructors to create default IceBreaker Program 
+//	Create Constructors to create default IceBreaker Program 
 //	public IceBreaker() {
 //		
 //	}
