@@ -219,7 +219,7 @@ public class IceBreaker extends Application {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// sample line in remote
-		System.out.println("testing");
+		System.out.println("IceBreaker Launched...Welcome to The Ice Breaker");
 		launch(args);
 	}
 
