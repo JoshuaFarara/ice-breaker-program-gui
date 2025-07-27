@@ -11,6 +11,7 @@ import javafx.geometry.Pos;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.effect.DropShadow;
+import javafx.scene.image.Image;
 import javafx.scene.image.ImageView;
 import javafx.scene.input.MouseEvent;
 import javafx.scene.layout.BorderPane;
@@ -59,7 +60,8 @@ public class IceBreaker extends Application {
 		final DropShadow shadow=new DropShadow();
 		
 		//Adding background image
-		ImageView imageView = new ImageView("src/main/resources/images/sweetHeartCircleFront.jpg");
+		Image image = new Image(getClass().getResource("/images/sweetHeartCircleFront.jpg").toExternalForm());
+		ImageView imageView = new ImageView(image);
 		imageView.setFitHeight(WINDOW_HEIGHT);
 		imageView.setFitWidth(WINDOW_WIDTH);
 		imageView.setOpacity(.25); // add opacity to an image
