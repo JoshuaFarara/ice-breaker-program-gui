@@ -24,7 +24,7 @@ It features a **graphical user interface (GUI)** that allows users to select, co
 | Category | Tools / Libraries |
 |-----------|------------------|
 | Language | Java |
-| GUI Toolkit | Java Swing |
+| GUI Toolkit | JavaFX |
 | Build Tool | Apache Maven |
 | IDE | Eclipse (or any compatible Java IDE) |
 | Version Control | Git / GitHub |
@@ -32,6 +32,7 @@ It features a **graphical user interface (GUI)** that allows users to select, co
 ---
 
 ### Project Structure  
+```
 ice-breaker-program-gui/
 │
 ├── src/
@@ -48,35 +49,36 @@ ice-breaker-program-gui/
 ├── pom.xml                              # Maven build configuration
 ├── README.md                            # Project documentation
 └── .gitignore
+```
 
 ### Getting Started
-1. Clone the Repository
-   git clone https://github.com/JoshuaFarara/ice-breaker-program-gui.git
-   cd ice-breaker-program-gui
-2. Build the Project
-  Ensure Maven and Java 24 are installed, then run:
-  mvn clean install
-3. Run the Application
-  Using Eclipse:
-  Right-click the project → Run As → Java Application
-  Select the main class: com.icebreaker.Main
+1. Clone the Repository<br>
+   git clone https://github.com/JoshuaFarara/ice-breaker-program-gui.git<br>
+   cd ice-breaker-program-gui<br>
+2. Build the Project<br>
+  Ensure Maven and Java 24 are installed, then run:<br>
+  mvn clean install<br>
+3. Run the Application<br>
+  Using Eclipse:<br>
+  Right-click the project → Run As → Java Application<br>
+  Select the main class: com.icebreaker.Main<br>
 
 ### Design Notes
 
--Architecture: Follows a Model-View-Controller (MVC) design to separate logic, UI, and data management.
--Event-Driven Programming: Utilizes Java’s event listeners to handle user interactions and manage game flow.
--Extensibility: New games can be added by implementing the Game interface and registering it within the application.
+- Architecture: Follows a Model-View-Controller (MVC) design to separate logic, UI, and data management.
+- Event-Driven Programming: Utilizes Java’s event listeners to handle user interactions and manage game flow.
+- Extensibility: New games can be added by implementing the Game interface and registering it within the application.
 
 ### Future Enhancements
 
--Implement a settings panel for customization of timers, themes, and difficulty levels.
--Add leaderboard tracking and player statistics.
--Introduce multiplayer functionality via network sockets.
--Enhanced User Interface: Implementing a more modern and responsive design.
--Additional Games: Expanding the selection of icebreaker games.
--Online Multiplayer Support: Enabling remote teams to participate in games.
--Cloud Integration: Allowing for data synchronization across devices.
--Package the application as an executable .jar or installer for easy distribution.
+- Implement a settings panel for customization of timers, themes, and difficulty levels.
+- Add leaderboard tracking and player statistics.
+- Introduce multiplayer functionality via network sockets.
+- Enhanced User Interface: Implementing a more modern and responsive design.
+- Additional Games: Expanding the selection of icebreaker games.
+- Online Multiplayer Support: Enabling remote teams to participate in games.
+- Cloud Integration: Allowing for data synchronization across devices.
+- Package the application as an executable .jar or installer for easy distribution.
 
 Author
 Joshua Farara
