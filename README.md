@@ -12,7 +12,7 @@ It features a **graphical user interface (GUI)** that allows users to select, co
 ### Features  
 
 - Multiple icebreaker games suitable for various group sizes and contexts.  
-- Intuitive graphical user interface designed using Java Swing.  
+- Intuitive graphical user interface designed using JavaFX.  
 - Customizable settings for rules, participants, and parameters.  
 - Local data persistence to save preferences and configurations.  
 - Modular design that allows new games to be added easily.  
